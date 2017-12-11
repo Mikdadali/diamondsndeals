@@ -193,10 +193,13 @@ header {
     position: relative;
     padding: 6px 0 0px 0;
 }
-nav ul li.home {
+@-moz-document url-prefix() {
+    nav ul li.home {
     position: relative;
     top: 12px;
 }
+}
+
 .logo {
     width: 60%;
     float: left;
