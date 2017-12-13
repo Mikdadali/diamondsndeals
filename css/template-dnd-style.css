@@ -473,6 +473,7 @@ ul.left-details li, ul.right-details li {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    margin-left: 50px;
 }
 
 .csslider > ul > li {
