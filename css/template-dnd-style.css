@@ -202,7 +202,7 @@ mbg-nw {
     width: 100%;
     margin-top: 5px;
     position: relative;
-    margin-bottom: -6px;
+    margin-bottom: 0px;
 }
 .span12 h2 {
     font-size: 18px;
@@ -310,9 +310,9 @@ li > a:only-child:after {
 }
 
 .product-description {
-    width: 570px;
+    width: 560px;
     float: left;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .tabs {
     padding: 0 10px;
@@ -356,7 +356,6 @@ ul.left-details li, ul.right-details li {
     color: #1f3142;
     padding-bottom: 2px;
     margin-bottom: 0;    
-    text-transform: uppercase;
     margin-top: 0;
 }
 .desc {
@@ -501,7 +500,7 @@ ul.left-details li, ul.right-details li {
 }
 
 .csslider > ul > li img {
-    width: 100%;
+    width: 90%;
 }
 
 .csslider > ul > li.scrollable {
