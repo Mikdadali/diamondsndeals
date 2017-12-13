@@ -977,14 +977,34 @@ div.lcat {
 }
 .lev1 li span {
     text-decoration: none;
-    color: #333;
-    padding: 10px 5px 10px 15px;
+    color: #2c8ed5;
+    font-weight: bold;
+    padding: 10px 5px 10px 30px;
     display: inline-block;
     font-size: 14px;
     font-family: 'Barlow', sans-serif;
 }
-.lev1 li a:before,
-.lev1 li span:before {
+span.bin.g-b {
+    font-weight: bold;
+    font-size: 14px;
+}
+span.pdmt .cur {
+    cursor: pointer;
+    color: #2c8ed5;
+    margin-left: .4em;
+}
+.ttl a {
+    color: #333;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.ttl a:hover {
+    color: #2c8ed5;
+}
+.lev1 li span.cnt {
+    padding: 0;
+}
+.lev1 li a:before{
     content: "";
     background: url(../images/long-arrow-pointing.svg);
     background-size: 12px;
@@ -996,7 +1016,28 @@ div.lcat {
     position: relative;
     top: 1px;
 }
-
+.lev1 li span:before {
+    content: "";
+    background: url(../images/long-arrow-pointing-hover.svg);
+    background-size: 12px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-size: 12px;
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+}
+.lev1 li span.cnt:before {
+    content: none;
+}
+.lcat .lev2 li span.cnt {
+    color: #666;
+    padding: 0;
+}
+.lcat .lev2 li span.cnt:before {
+    content: none;
+}
 .lev1 li a:hover {
     color: #2c8ed5;
     padding-left: 30px;
