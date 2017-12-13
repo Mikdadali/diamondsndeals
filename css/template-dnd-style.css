@@ -44,11 +44,8 @@ ul, li {
 
 .header-top .header-top-content {
     background-color: #5d5d5d;
-    height: 36px;
-    position: absolute;
-    left: 0;
+    height: 5px;
     width: 100%;
-    line-height: 25px;
 }
 
 .top-info {
@@ -203,55 +200,23 @@ mbg-nw {
     PADDING-BOTTOM: 0;
     display: inline-block;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 5px;
     position: relative;
     margin-bottom: -6px;
 }
-
+.span12 h2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #30404f;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
 .logo {
     margin-top: 0px;
     width: 60%;
-    float: left;
-}
-
-.search {
-    width: 40%;
-    float: right;
-    text-align: right;
-    padding-top: 30px;
-    position: relative;
-    right: 6px;
-}
-
-.search input[type="text"] {
-    background-color: #fff;
-    padding: 10px;
-    border: 0;
-    width: 320px;
-    height: 28px;
-    display: inline-block;
-    vertical-align: top;
-    outline: none;
-    border: 1px solid #848484;
-}
-
-.search input[type="submit"] {
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    background-color: #848484;
-    font-size: 0;
-    border: 0;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: -5px;
-    background-image: url(../images/magnifying-glass.svg);
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: 25px;
+    float: none;
     text-align: center;
-    background-position-y: 12px;
-    background-position-x: 11px;
+    margin: 0 auto;
 }
 
 @-moz-document url-prefix() {

@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en">
+<head>
+    <title>
+
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="">
+    <link rel="stylesheet" href="https://mikdadali.github.io/diamondsndeals/css/template-dnd-style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="pagelayout">
+                <div class="header-top">
+                    <div class="header-top-content">
+                        <div class="fixedWidth">
+                            
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="header-main">
+                        <div class="logo">
+                            <a href="#" target="_blank"> <img src="https://mikdadali.github.io/diamondsndeals/images/dndbanner.jpg" alt="logo"> </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="full-menu-wrap">
+                    <div class="full-menu">
+                        <nav>
+                            <label for="drop" class="toggle toggle-title">Menu</label>
+                            <input id="drop" type="checkbox">
+                            <ul class="menu">
+                                <li class="home"><a href="#" target="_blank"><img src="https://mikdadali.github.io/diamondsndeals/images/homeIcon.png"></a></li>
+                                <li><a href="#" target="_blank">Loose Diamonds</a></li>
+                                <li><a href="#" target="_blank">Rings</a></li>
+                                <li><a href="#" target="_blank">Earrings</a></li>
+                                <li><a href="#" target="_blank">Bracelet</a></li>
+                                <li><a href="#" target="_blank">Pendant</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <div class="mainContent">
+        <div class="pagelayout">
+            <div class="innerContent">
+                <div class="product-images">
+                    <div class="csslider">
+                        <input type="radio" name="slides" id="slides_1" checked />
+                        {for images}
+                        <input type="radio" name="slides" id="slides_{position+1}" />
+                        {/for}
+                        <ul>
+                            <li>
+                                <img src="{CDNUrl}/productimages/{ProductID}.png">
+                            </li>
+                            {for images}
+                            <li>
+                                <img src="{cdnurl}{images.src}&width=600" />
+                            </li>
+                            {/for}
+                        </ul>
+                        <div class="arrows">
+                            <label for="slides_1"></label>
+                            {for images}
+                            <label for="slides_{position+1}"></label>
+                            {/for}
+                        </div>
+                        <div class="navigation">
+                            <div>
+                                <label for="slides_{position+1}">
+                                    <img src="{cdnurl}/productimages/{ProductID}.png?width=60&amp;etag={etag}" />
+                                </label>
+                                {for images}
+                                <label for="slides_{position+1}">
+                                    <img src="{cdnurl}{images.src}&width=60" />
+                                </label>
+                                {/for}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <h1 itemprop="name">{Title}</h1>
+                    <div class="desc">
+                        <div class="rte">
+                            <div class="title"><strong>Descriptions</strong></div>
+                            <div class="description-inner">
+                                <!--startcodistodescription - DO NOT REMOVE-->
+                                {include field="EbayDescription"}
+                                <!--endcodistodescription - DO NOT REMOVE-->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="relatedproduct">
+                    {if SuggestedProducts}
+                    <div class="pagewidth">
+                        <div class="block" id="you_like">
+                            <div class="span12">
+                                <h2>you might like</h2>
+                            </div>
+                            <div class="product-loop">
+                                {for SuggestedProducts}
+                                <div class="span3 span4">
+                                    <div class="imagecenter">
+                                        <a href="http://cgi.{EbaySiteURL}/{EbayItemID}" target="_blank">
+                                            <img src="{CDNUrl}/productimages/{ID}.jpg?width=170&height=200">
+                                        </a>
+                                    </div>
+                                    <h4><a href="http://cgi.{EbaySiteURL}/{EbayItemID}" target="_blank">{Name}</a></h4>
+                                </div>
+                                {/for}
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    {/if}
+                </div>
+                <div class="tabs">
+                    <div class="essTabs">
+                        <div class="tabBox">
+                            <input id="tab1" name="tab-group" checked="checked" class="checkbox" type="radio">
+                            <label for="tab1"><span class="tabdown-icon"></span>About Us</label>
+                            <div class="panel">
+                                <div class="scrollBox"> </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                            </div>
+                        </div>
+                        <div class="tabBox">
+                            <input id="tab2" name="tab-group" class="checkbox" type="radio">
+                            <label for="tab2"><span class="tabdown-icon"></span>Returns</label>
+                            <div class="panel">
+                                <div class="scrollBox"> </div>
+                                {if ReturnsAccepted}
+                                <p>Returns are accepted</p>
+                                <p>
+                                    Items must be returned within
+                                    {if ReturnsWithin = "Days_3"}
+                                    3 days
+                                    {else if ReturnsWithin = "Days_7"}
+                                    7 days
+                                    {else if ReturnsWithin = "Days_10"}
+                                    10 days
+                                    {else if ReturnsWithin = "Days_14"}
+                                    14 days
+                                    {else if ReturnsWithin = "Days_30"}
+                                    30 days
+                                    {else if ReturnsWithin = "Days_60"}
+                                    60 days
+                                    {/if} of the auction ending
+                                </p>
+                                {else}
+                                <p>Returns are <strong>not</strong> accepted</p>
+                                {/if}
+
+                                <p>{if EbayShippingCostPaidByOption = "Buyer"}Buyer{else}Seller{/if} will pay for return shipping. </p>
+
+                                {if EbayReturnPolicyDescription}
+                                <br />
+                                <strong>Additional Information:</strong>
+                                <div>{EbayReturnPolicyDescription}</div>
+                                {/if}
+                            </div>
+                        </div>
+                        <div class="tabBox">
+                            <input id="tab3" name="tab-group" class="checkbox" type="radio">
+                            <label for="tab3"><span class="tabdown-icon"></span>Delivery</label>
+                            <div class="panel">
+                                <div class="scrollBox"> </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                            </div>
+                        </div>
+                        <div class="tabBox">
+                            <input id="tab4" name="tab-group" class="checkbox" type="radio">
+                            <label for="tab4"><span class="tabdown-icon"></span>Payment</label>
+                            <div class="panel">
+                                <div class="scrollBox"> </div>
+                                <p>Accepted Payment Methods</p>
+                                <ul>
+                                    <li><strong>PayPal</strong></li>
+                                    {if MoneyOrderAccepted}
+                                    <li><strong>Money Order</strong></li>
+                                    {/if}
+                                    {if DirectDepositAccepted}
+                                    <li><strong>Direct Deposit</strong></li>
+                                    {/if}
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tabBox">
+                            <input id="tab5" name="tab-group" class="checkbox" type="radio">
+                            <label for="tab5"><span class="tabdown-icon"></span>Contact Us</label>
+                            <div class="panel">
+                                <div class="scrollBox"> </div>
+                                <p>To contact our Customer Service Team, simply click the button here and our Customer Service team will be happy to assist.</p>
+                                <p><a target="_blank" href="http://contact.{EbaySiteURL}/ws/eBayISAPI.dll?FindAnswers&amp;requested={EbayUserID}&amp;iid={EbayItemID}" class="btn"><i class="icon-info-sign icon-white"></i> Ask seller a question</a></p>
+                                <div class="span6">
+                                    {if MerchantName != "<to be set>"}<p>&copy; {MerchantName}</p>{/if}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="big-footer">
+                <div class="thumb">
+                    <a href="#" target="_blank"><img src="https://mikdadali.github.io/diamondsndeals/images/dndbanner.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
