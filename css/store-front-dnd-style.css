@@ -1245,7 +1245,10 @@ table#TopPromoArea {
 
     .pagelayout, .footer-top .footer-top-content, .features-content {
         width: 96%;
-        padding: 0 2%;
+            max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
     }
 
     .Shopping {
