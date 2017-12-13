@@ -1430,6 +1430,9 @@ table#TopPromoArea {
     #LeftPanel {
         display: none;
     }
+    td {
+        display: block;
+    }
 }
 
 @media all and (max-width: 767px) {
