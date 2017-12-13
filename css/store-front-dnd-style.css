@@ -930,15 +930,26 @@ form {
 }
 
 .lev1 {
-    border: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
     margin-bottom: 15px;
-    background: #ddd;
+    background: #fff;
 }
-
+div.lcat {
+    width: 100%;
+}
 .lev1 li {
     border-bottom: 1px solid #ebebeb;
 }
-
+.lcat .ttl {
+    font-weight: bold;
+    color: #00000c;
+    margin-bottom: 0;
+    background: #f2f2f2;
+    padding: 8px 16px;
+}
+.lcat .lev1 li {
+    margin: 0;
+}
 .lev1 li:last-child {
     border-bottom: none;
 }
@@ -946,10 +957,10 @@ form {
 .lev1 li a {
     text-decoration: none;
     color: #333;
-    padding: 10px 15px;
+    padding: 10px 5px;
     display: inline-block;
     font-size: 14px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 .lev1 li a:before {
