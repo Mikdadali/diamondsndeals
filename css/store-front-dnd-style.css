@@ -949,15 +949,28 @@ div.lcat {
 }
 .lcat .lev1 li {
     margin: 0;
+    font-weight: normal;
+}
+.lcat .lev2 {
+    padding: 0 0 0 0px;
+    border-bottom: 1px solid #ebebeb;
+}
+.lcat a.all_cats {
+    display: none;
 }
 .lev1 li:last-child {
     border-bottom: none;
 }
-
+.lcat .lev2 {
+    padding: 0;
+}
+.lcat .lev2 li {
+    list-style: none;
+}
 .lev1 li a {
     text-decoration: none;
     color: #333;
-    padding: 10px 5px;
+    padding: 10px 15px;
     display: inline-block;
     font-size: 14px;
     font-family: 'Barlow', sans-serif;
@@ -965,7 +978,8 @@ div.lcat {
 
 .lev1 li a:before {
     content: "";
-    background: url(../images/right-arrow.png);
+    background: url(../images/long-arrow-pointing.svg);
+    background-size: 12px;
     width: 12px;
     height: 12px;
     display: inline-block;
