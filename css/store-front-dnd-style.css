@@ -1400,13 +1400,14 @@ table#TopPromoArea {
     .logo {
         width: 50%;
         float: left;
-        padding-top: 22px;
+        padding-top: 3px;
+        padding-bottom: 6px;
     }
-
+    
     .search {
         width: 50%;
         right: 0;
-        padding-top: 29px;
+        padding-top: 10px;
     }
 
     header {
@@ -1432,6 +1433,23 @@ table#TopPromoArea {
     }
     td {
         display: block;
+    }
+    .gh-tbl td {
+        display: inline-block;
+    }
+    table.tb_v4bc tr td {
+        display: inline-block;
+    }
+    .v4toppromos td {
+        display: inline-block;
+    }
+    .grid td.gallery {
+        vertical-align: top;
+        display: inline-block;
+        float: left;
+    }
+    .dynpg td {
+        display: inline-block;
     }
 }
 
