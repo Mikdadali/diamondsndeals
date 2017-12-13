@@ -1427,6 +1427,9 @@ table#TopPromoArea {
     .footer-top {
         padding: 20px 0;
     }
+    #LeftPanel {
+        display: none;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -1726,6 +1729,9 @@ table#TopPromoArea {
     line-height: 21px;
     padding: 0px 10px;
 }
+    table#TopPromoArea tr.v4toppromos td {
+        display: inline-block;
+    }
 }
 
 @media all and (max-width: 640px) {
