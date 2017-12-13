@@ -996,7 +996,7 @@ span.pdmt .cur {
 .ttl a {
     color: #333;
     font-weight: bold;
-    font-size: 13.5px;
+    font-size: 14px;
 }
 .ttl a:hover {
     color: #2c8ed5;
@@ -1708,6 +1708,19 @@ table#TopPromoArea {
         margin: 0 auto;
         float: none;
     }
+     .grid td.gallery {
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 20px;
+}
+    table.gallery table.fixed td {
+        display: inline-block;
+    }
+    .header-social-icons a {
+    line-height: 21px;
+    padding: 0px 10px;
+}
 }
 
 @media all and (max-width: 640px) {
@@ -1728,7 +1741,12 @@ table#TopPromoArea {
     .icon-section ul li {
         width: 100%;
     }
-
+    .grid td.gallery {
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
     .search input[type="text"] {
         width: 328px;
     }
