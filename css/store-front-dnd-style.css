@@ -1708,12 +1708,17 @@ table#TopPromoArea {
         margin: 0 auto;
         float: none;
     }
-     .grid td.gallery {
+   .grid td.gallery {
     vertical-align: top;
     border: 1px solid #ccc;
-    width: 50%;
+    width: 49%;
     margin-bottom: 20px;
+    float: left;
+    margin-right: 4px;
 }
+    table.gallery table.fixed {
+        width: auto;
+    }
     table.gallery table.fixed td {
         display: inline-block;
     }
