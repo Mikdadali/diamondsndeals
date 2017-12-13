@@ -1431,26 +1431,10 @@ table#TopPromoArea {
     #LeftPanel {
         display: none;
     }
-    td {
+    header td {
         display: block;
     }
-    .gh-tbl td {
-        display: inline-block;
-    }
-    table.tb_v4bc tr td {
-        display: inline-block;
-    }
-    .v4toppromos td {
-        display: inline-block;
-    }
-    .grid td.gallery {
-        vertical-align: top;
-        display: inline-block;
-        float: left;
-    }
-    .dynpg td {
-        display: inline-block;
-    }
+   
 }
 
 @media all and (max-width: 767px) {
