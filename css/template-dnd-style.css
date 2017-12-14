@@ -28,7 +28,15 @@ ul, li {
     margin: 0;
     padding: 0;
 }
-
+.rte .description-inner ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.product-description ul strong {
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+}
 .pagelayout {
     max-width: 1100px;
     width: 100%;
