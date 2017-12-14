@@ -691,14 +691,14 @@ ul.left-details li, ul.right-details li {
 
 .csslider.infinity > input:first-of-type:checked ~ .arrows label:last-of-type, .csslider > input:nth-of-type(1):checked ~ .arrows label:nth-of-type(0), .csslider > input:nth-of-type(10):checked ~ .arrows label:nth-of-type(9), .csslider > input:nth-of-type(11):checked ~ .arrows label:nth-of-type(10), .csslider > input:nth-of-type(12):checked ~ .arrows label:nth-of-type(11), .csslider > input:nth-of-type(13):checked ~ .arrows label:nth-of-type(12), .csslider > input:nth-of-type(2):checked ~ .arrows label:nth-of-type(1), .csslider > input:nth-of-type(3):checked ~ .arrows label:nth-of-type(2), .csslider > input:nth-of-type(4):checked ~ .arrows label:nth-of-type(3), .csslider > input:nth-of-type(5):checked ~ .arrows label:nth-of-type(4), .csslider > input:nth-of-type(6):checked ~ .arrows label:nth-of-type(5), .csslider > input:nth-of-type(7):checked ~ .arrows label:nth-of-type(6), .csslider > input:nth-of-type(8):checked ~ .arrows label:nth-of-type(7), .csslider > input:nth-of-type(9):checked ~ .arrows label:nth-of-type(8) {
     display: block;
-    left: -6px;
+    left: 12px;
     background: url(../images/left-arrow.svg);
     background-size: 20px;
 }
 
 .csslider.infinity > input:last-of-type:checked ~ .arrows label:first-of-type, .csslider > input:nth-of-type(1):checked ~ .arrows label:nth-of-type(2), .csslider > input:nth-of-type(10):checked ~ .arrows label:nth-of-type(11), .csslider > input:nth-of-type(11):checked ~ .arrows label:nth-of-type(12), .csslider > input:nth-of-type(12):checked ~ .arrows label:nth-of-type(13), .csslider > input:nth-of-type(2):checked ~ .arrows label:nth-of-type(3), .csslider > input:nth-of-type(3):checked ~ .arrows label:nth-of-type(4), .csslider > input:nth-of-type(4):checked ~ .arrows label:nth-of-type(5), .csslider > input:nth-of-type(5):checked ~ .arrows label:nth-of-type(6), .csslider > input:nth-of-type(6):checked ~ .arrows label:nth-of-type(7), .csslider > input:nth-of-type(7):checked ~ .arrows label:nth-of-type(8), .csslider > input:nth-of-type(8):checked ~ .arrows label:nth-of-type(9), .csslider > input:nth-of-type(9):checked ~ .arrows label:nth-of-type(10) {
     display: block;
-    right: -2px;
+    right: -15px;
     background: url(../images/right-arrow.svg);
     background-size: 20px;
 }
