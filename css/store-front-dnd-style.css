@@ -1269,6 +1269,7 @@ table#TopPromoArea {
     }
     header {
         padding: 0;
+        display: table;
     }
 }
 
