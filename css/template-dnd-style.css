@@ -29,9 +29,24 @@ ul, li {
     padding: 0;
 }
 .rte .description-inner ul li {
-    margin-bottom: 6px;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+.rte .description-inner ul li div {
+    width: 47%;
+    display: inline-block;
+    padding: 8px 6px;
+    margin-top: -1px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.rte .description-inner ul li div:last-child {
+    padding-left: 0px;
+    text-align: right;
+}
+.rte .description-inner ul li div:first-child {
+    border-right: 1px solid #ccc;
 }
 .product-description ul strong {
     color: #333;
@@ -343,6 +358,12 @@ li > a:only-child:after {
 .description-inner a img{
     width: 50px !important;
 }
+.description-inner li:nth-child(odd) {
+    background-color: #fff;
+}
+.description-inner li:nth-child(even) {
+    background-color: #f8f8f8;
+}
 .span12 h2 {
     border-top: 1px solid #5d5d5d;
     border-bottom: 1px solid #5d5d5d;
@@ -452,6 +473,7 @@ ul.left-details li, ul.right-details li {
     margin: 0 0 20px;
     font-size: 14px;
     color: #777;
+    border: 1px solid #ccc;
 }
 .product-description ul strong {
     color: #333;
