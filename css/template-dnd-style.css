@@ -340,8 +340,8 @@ li > a:only-child:after {
 .description-inner a {
     width: 100% !important;
 }
-.description-inner a {
-    width: 50px;
+.description-inner a img{
+    width: 50px !important;
 }
 .span12 h2 {
     border-top: 1px solid #5d5d5d;
