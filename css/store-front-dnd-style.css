@@ -882,6 +882,10 @@ form {
 .commonContent p {
     font-size: 15px;
 }
+table.gallery .mi {
+    min-height: inherit;
+    padding-top: 0;
+}
 #org-designer {
     width: auto;
     padding: 0;
