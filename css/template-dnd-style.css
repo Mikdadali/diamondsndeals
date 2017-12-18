@@ -561,6 +561,10 @@ ul.left-details li, ul.right-details li {
     margin: 12px 0 0px 0;
     display: inline-block;
 }
+.panel a.btn:hover {
+    background: #fff;
+    color: #1f3142;
+}
 .csslider > ul {
     position: relative;
     width: 400px;
