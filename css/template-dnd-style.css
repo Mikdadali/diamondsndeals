@@ -641,12 +641,11 @@ ul.left-details li, ul.right-details li {
     cursor: pointer;
     border-radius: 50%;
     margin: 0;
-    padding: 3px;
     float: none;
 }
 
 .csslider > .navigation label img {
-    width: 58px;
+    width: 50px;
     border: 1px solid #ccc;
     vertical-align: top;
 }
