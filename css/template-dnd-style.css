@@ -567,7 +567,7 @@ ul.left-details li, ul.right-details li {
 }
 .csslider > ul {
     position: relative;
-    width: 400px;
+    width: 420px;
     height: 415px;
     z-index: 1;
     font-size: 0;
