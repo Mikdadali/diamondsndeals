@@ -488,15 +488,15 @@ ul.left-details li, ul.right-details li {
 }
 
 .csslider {
-    -moz-perspective: 400px;
-    -ms-perspective: 400px;
-    -webkit-perspective: 400px;
-    perspective: 400px;
+    -moz-perspective: 470px;
+    -ms-perspective: 470px;
+    -webkit-perspective: 470px;
+    perspective: 470px;
     display: inline-block;
     text-align: left;
     position: relative;
     margin-bottom: 22px;
-    width: 400px;
+    width: 470px;
 }
 
 .csslider > input {
