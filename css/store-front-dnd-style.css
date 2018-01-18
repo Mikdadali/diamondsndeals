@@ -14,9 +14,6 @@ body {
 input, select, textarea, button {
     font-family: 'Barlow', sans-serif;
 }
-body a:link, body .g-novisited a:visited {
-    color: inherit;
-}
 * {
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
@@ -89,7 +86,9 @@ header {
     font-size: 13px;
     padding: 13px 10px;
 }
-
+.header-social-icons a:link, .header-social-icons .g-novisited a:visited {
+    color: #fff;
+}
 .header-social-icons a:hover {
     color: #2c8ed5;
 }
