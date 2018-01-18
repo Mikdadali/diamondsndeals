@@ -1169,6 +1169,10 @@ table.v4clp td.oc li a:before {
 .ttl a {
     color: #333;
 }
+.lcat .cnt {
+    padding-left: 0;
+}
+
 .ttl a:link, .ttl .g-novisited a:visited {
     color: #333;
 }
