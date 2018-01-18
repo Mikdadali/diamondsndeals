@@ -1014,7 +1014,7 @@ span.pdmt .cur {
     font-size: 14px;
 }
 .ttl a:hover {
-    color: #2c8ed5;
+    color: #2c8ed5 !important;
 }
 td#LeftPanel {
     width: 250px;
