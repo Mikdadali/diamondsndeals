@@ -1016,8 +1016,8 @@ span.pdmt .cur {
 .ttl a:hover {
     color: #2c8ed5;
 }
-.lev1 li span.cnt {
-    padding: 0;
+td#LeftPanel {
+    width: 250px;
 }
 .lev1 li a:before{
     content: "";
