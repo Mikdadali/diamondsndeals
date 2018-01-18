@@ -1169,6 +1169,9 @@ table.v4clp td.oc li a:before {
 .ttl a {
     color: #333;
 }
+.ttl a:link, .ttl .g-novisited a:visited {
+    color: #333;
+}
 .sb input[type="submit"] {
 	background: #1f3142;
 	border: 1px solid #1f3142;
